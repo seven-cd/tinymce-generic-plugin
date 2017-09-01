@@ -7,7 +7,14 @@
     "lint": "eslint 'src/**/*.js'",
     "build": "webpack --config config/webpack.config.prod.js --progress"
   },
-  "author": "",
+  "author": "Ivan Pandzic",
+  "publishConfig": {
+    "registry": "https://npm.nsoft.ba"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seven-cd/tinymce-generic-plugin.git"
+  },
   "devDependencies": {
     "babel-core": "^6.21.0",
     "babel-loader": "^6.2.10",
@@ -20,9 +27,6 @@
     "html-webpack-plugin": "^2.26.0",
     "webpack": "^2.2.0",
     "webpack-dev-server": "^1.16.2"
-  },
-  "dependencies": {
-    "lodash": "^4.17.4"
   },
   "license": "MIT"
 }
