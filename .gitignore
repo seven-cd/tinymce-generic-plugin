@@ -2,4 +2,6 @@ node_modules
 *.log
 .DS_Store
 yarn.lock
-.idea
+.idea/*
+.vscode/
+npm-debug.log
