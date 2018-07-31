@@ -1,6 +1,6 @@
 {
-  "name": "tinymce-generic-plugin",
-  "version": "0.0.1",
+  "name": "@nsoft/tinymce-generic-plugin",
+  "version": "0.0.2",
   "description": "tinymceGenericPlugin TinyMCE plugin repo",
   "scripts": {
     "start": "webpack-dev-server --config config/webpack.config.dev.js --progress --open --inline",
@@ -9,7 +9,7 @@
   },
   "author": "Ivan Pandzic",
   "publishConfig": {
-    "registry": "https://npm.nsoft.ba"
+    "registry": "https://registry.npmjs.org"
   },
   "repository": {
     "type": "git",
